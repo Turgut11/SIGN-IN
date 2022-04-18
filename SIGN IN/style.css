@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --object: 'Oswald', sans-serif;
+}
+
+body{
+    background:url(L2.png)
+}
+
+.container{
+    max-width: 352px;
+    margin: auto;
+}
+
+
+/* one css start */
+
+#first{
+    border-radius: 5px;
+    background-color: #f5fafe;
+    width: 440px;
+    margin: 25px 0 0 0;
+    position: absolute;
+    left: 33%
+}
+
+#first h1{
+    font: bold 24px var(--object);
+line-height: 28px;
+color: #4f4f4f;
+padding: 37px 0;
+}
+
+#first input{
+    font: 300 18px var(--object);
+    width: 100%;
+color: #555555;
+background-color: #fcfeff;
+border: none;
+margin: 0 0 0 -4px;
+padding: 16px 0 16px 7px;
+border-radius: 5px;
+outline: none;
+}
+
+#first p{
+    font: bold 14px var(--object);
+letter-spacing: 2px;
+line-height: 28px;
+color: #4f4f4f;
+padding: 7px 0;
+}
+
+#first .a:nth-child(odd){
+    margin-bottom: 27px;
+}
+
+#first .c{
+    font: bold 14px var(--object);
+line-height: 28px;
+color: #8b8b8b;
+margin: 0 199px 0 -165px;
+cursor: pointer;
+}
+
+#first a{
+    font: bold 14px var(--object);
+line-height: 28px;
+color: #04a9f4;
+text-align: right;
+text-decoration: none;
+}
+
+#first .ccbb{
+    font: bold 22px var(--object);
+color: #ffffff;
+filter: drop-shadow(0px -1px 0px rgba(0,0,0,0.2));
+width: 352px;
+margin: 50px 0;
+background-color: #0796d7;
+border-radius: 5px;
+padding: 20px 130px;
+cursor: pointer;
+border: none;
+}
+
+#first .aa{
+    font: bold 14px var(--object);
+letter-spacing: 1px;
+line-height: 20px;
+color: #ffffff;
+text-align: center;
+    margin: 0 0 35px 0;
+    width: 164px;
+    background-color: #3161a1;
+    border-radius: 5px;
+    padding: 12px 40px;
+    cursor: pointer;
+    border: none;
+}
+
+#first .ab{
+    font: bold 14px var(--object);
+   background-color: #00a9f3;
+letter-spacing: 1px;
+line-height: 20px;
+color: #ffffff;
+text-align: center;
+    width: 164px;
+    margin: 0 0 0 20px;
+    border-radius: 5px;
+    padding: 12px 40px;
+    cursor: pointer;
+    border: none;
+}
+
+#first .ccb{
+    margin: 0 0 0 -170px;
+}
